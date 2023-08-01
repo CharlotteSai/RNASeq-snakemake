@@ -1,0 +1,5 @@
+# Override any of the defaults with job specific values. e.g.:
+demo_minimal :
+  cpus-per-task : 1
+  mem           : "100M"
+  time          : "00-00:10:00"

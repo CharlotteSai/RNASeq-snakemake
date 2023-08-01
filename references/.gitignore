@@ -1,0 +1,15 @@
+# FASTA and their indexed
+*.fasta
+*.fasta.gz
+*.fai
+*.gzi
+*.gtf
+
+# GFF/GTF and their indexes
+*.gff3
+*.gff3.gz
+*.gff3.gz.csi
+*.gff3.gz.tbi
+
+# Mapper Indexes
+*_STAR_index/

@@ -1,0 +1,8 @@
+# Check anaconda cloud for new versions of tools.
+# e.g. https://anaconda.org/search?q=samtools
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies: 
+ - samtools=1.13

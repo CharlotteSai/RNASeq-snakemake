@@ -1,0 +1,9 @@
+__default__ :
+# The slurm account under which resource usage will be "charged"
+  account       : cluster_users
+# Submitted jobs can be scheduled to run on any of the comma-separated list of partitions
+  partition     : sahmri_prod_hpc,sahmri_cancer_hpc
+# Get the following resources are obtained from the "resources" directive of Snakemake rules
+  cpus-per-task : "{resources.threads}"
+  mem           : "{resources.mem_gb}G"
+  time          : "00-{resources.time_hr}:00:00"

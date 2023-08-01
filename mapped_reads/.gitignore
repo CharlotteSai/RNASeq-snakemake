@@ -1,0 +1,12 @@
+# STAR output files
+*.Aligned.sortedByCoord.out.bam
+*.Log.final.out
+*.Log.out
+*.Log.progress.out
+*.Log.std.out
+*.SJ.out.tab
+*.done
+
+# MultiQC output files
+*.html
+*_multiqc_report_data/

@@ -1,0 +1,10 @@
+# Check anaconda cloud for new versions of tools.
+# e.g. https://anaconda.org/search?q=samtools
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+ - star=2.7.9
+ - samtools=1.13
+ - pigz=2.6

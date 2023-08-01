@@ -1,0 +1,7 @@
+---
+# RNA_DATASET is a bgzip compressed FASTA file under references/
+REFERENCE:   'my.fasta.gz'
+# RNA_DATASET is a directory under qc_reads/transcriptomic/PE/ which will contain subdirectories for each sample
+RNA_DATASET: 'my_dataset'
+# RNA_MAPPER is the read alignment tool to use. Supported values: star 
+RNA_MAPPER:  'star'
